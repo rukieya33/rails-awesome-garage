@@ -10,3 +10,38 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+.navbar{
+  background-color: #000000;
+  color:white;
+  margin-bottom:50px;
+}
+h3{
+  position:relative;
+  top:45px;
+}
+.navbar ul {
+  width:100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.navbar li {
+  float: right;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+  background-color: purple;
+}

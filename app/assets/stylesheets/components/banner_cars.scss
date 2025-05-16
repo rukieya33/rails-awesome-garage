@@ -1,0 +1,33 @@
+.banner{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  width:500px;
+  height:500px;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  background-color: white;
+}
+h2{
+  text-align: center;
+ color:purple;
+}
+.banner a {
+  display: block;
+  text-decoration: none;
+  padding: 16px;
+  background-color: black;
+  color:white;
+  &:hover{
+    background-color: purple;
+    color:white;
+  }
+}
