@@ -1,0 +1,11 @@
+<h1>All cars in awesome garage :) </h1>
+<ul>
+  <%@cars.each do |element| %>
+  <li>
+    <h2><%= element.owner.nickname %></h2>
+    <%= element.brand %>
+     <%= link_to 'View Details' , "cars/#{element.id}"%>
+    <p><%=element.created_at%></p>
+  </li>
+  <%end%>
+</ul>
